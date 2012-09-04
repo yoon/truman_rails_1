@@ -1,29 +1,35 @@
-# Class 1
+# class 1
 
-## Topics:
-* our development environment: ubuntu, sublime text, webrick
-* common commands: cd, pwd, ls, less
-* rails scaffolding
-* version control with git and github
-* mvc - model view controller
-* what is ruby? what is rails?
-* what are we doing? web applications, servers
-* terms ruby, rails, gems, rvm, bundler
+## topics:
+* our development environment: [ubuntu 12.0.4LTS](https://wiki.ubuntu.com/Releases), [sublime text](http://www.sublimetext.com/)
+* the command line [commands](https://help.ubuntu.com/community/UsingTheTerminal#Commands)
+* rails [command](http://guides.rubyonrails.org/command_line.html)
+* version control with [git](http://git-scm.com/book/en/Getting-Started-About-Version-Control) and [github](https://github.com/features/projects)
+* what is [ruby](http://www.ruby-lang.org/en/about/)? what is [rails](http://guides.rubyonrails.org/getting_started.html#what-is-rails)?
+* mvc - [model view controller](http://guides.rubyonrails.org/getting_started.html#the-mvc-architecture)
+* what are we doing? [web applications](http://thepaisano.files.wordpress.com/2008/04/rails2.png)
+* terms ruby, [rvm](https://rvm.io/), rails, [gems](http://rubygems.org/), [bundler](http://gembundler.com/)
 
-## Project 0: dynamic "Hello, Chicago"
+## project 0: dynamic "hello, chicago"
 
-## Resources
+## resources
 
-* [Agile Wed Development with Rails](http://pragprog.com/book/rails4/agile-web-development-with-rails)
-* [The Pickaxe Book](http://pragprog.com/book/ruby/programming-ruby)
-* [Why’s poignant guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
-* [Version control with Git](http://shop.oreilly.com/product/9780596520137.do)
-* [Railsconf](http://www.railsconf.com/2013) April 29 - May2, 2013
-* [Windy City Rails](http://windycityrails.org/) September 6 - 7, 2012
+* [rails api](http://api.rubyonrails.org/)
+* [ruby 1.9.3 api](http://www.ruby-doc.org/core-1.9.3/)
+* [rails guides](http://guides.rubyonrails.org/)
+* [why’s poignant guide to ruby](http://mislav.uniqpath.com/poignant-guide/)
 
-## Setting up rails on Ubuntu Linux
+## books and conferences
+
+* [agile wed development with rails](http://pragprog.com/book/rails4/agile-web-development-with-rails)
+* [the pickaxe book](http://pragprog.com/book/ruby/programming-ruby)
+* [version control with git](http://shop.oreilly.com/product/9780596520137.do)
+* [railsconf](http://www.railsconf.com/2013) april 29 - may2, 2013
+* [windy city rails](http://windycityrails.org/) september 6 - 7, 2012
+
+## setting up rails on ubuntu linux
 
 * [smashing magazine's ubuntu setup](http://coding.smashingmagazine.com/2011/06/21/set-up-an-ubuntu-local-development-machine-for-ruby-on-rails/)
-* [pow](https://github.com/ysbaddaden/pow/blob/linux/README-LINUX.md)
-* [installing nodejs](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
+* [pow](https://github.com/ysbaddaden/pow/blob/linux/readme-linux.md)
+* [installing nodejs](https://github.com/joyent/node/wiki/installing-node.js-via-package-manager)
 * [railsready](https://github.com/joshfng/railsready)
