@@ -10,16 +10,19 @@
 * what are we doing? [web applications](http://thepaisano.files.wordpress.com/2008/04/rails2.png)
 * terms ruby, [rvm](https://rvm.io/), rails, [gems](http://rubygems.org/), [bundler](http://gembundler.com/)
 
-## project 0: dynamic "hello, chicago"
+## coding:
 
-## resources
+* dynamic "hello, chicago"
+* rails scaffolding
+
+## resources:
 
 * [rails api](http://api.rubyonrails.org/)
 * [ruby 1.9.3 api](http://www.ruby-doc.org/core-1.9.3/)
 * [rails guides](http://guides.rubyonrails.org/)
 * [why’s poignant guide to ruby](http://mislav.uniqpath.com/poignant-guide/)
 
-## books and conferences
+## books and conferences:
 
 * [agile wed development with rails](http://pragprog.com/book/rails4/agile-web-development-with-rails)
 * [the pickaxe book](http://pragprog.com/book/ruby/programming-ruby)
@@ -27,7 +30,7 @@
 * [railsconf](http://www.railsconf.com/2013) april 29 - may2, 2013
 * [windy city rails](http://windycityrails.org/) september 6 - 7, 2012
 
-## setting up rails on ubuntu linux
+## setting up rails on ubuntu linux:
 
 * [smashing magazine's ubuntu setup](http://coding.smashingmagazine.com/2011/06/21/set-up-an-ubuntu-local-development-machine-for-ruby-on-rails/)
 * [pow](https://github.com/ysbaddaden/pow/blob/linux/readme-linux.md)

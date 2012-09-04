@@ -9,4 +9,7 @@
 * representation state transfer
 * csrf
 
-## project 1: inventory tracking (resource, location) or email signup form (person, topics)
+## project 1:
+
+* inventory tracking (resource, location)
+* email signup form (person, topics)
