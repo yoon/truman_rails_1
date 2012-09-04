@@ -15,6 +15,8 @@
 
 ## coding:
 
+* [try ruby](http://tryruby.org)
+* [try git](http://try.github.com)
 * [sign up for github](https://github.com/signup/free)
 * dynamic "hello, chicago"
 * rails scaffolding
