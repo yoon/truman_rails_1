@@ -1,8 +1,11 @@
 # class 1
 
 ## topics:
-* our development environment: [ubuntu 12.0.4LTS](https://wiki.ubuntu.com/Releases), [sublime text](http://www.sublimetext.com/)
+* hello
+* expectations, contact info
+* our development environment: [ubuntu 12.0.4LTS](https://wiki.ubuntu.com/Releases), on usb, [sublime text](http://www.sublimetext.com/)
 * the command line [commands](https://help.ubuntu.com/community/UsingTheTerminal#Commands)
+** touch, tail
 * rails [command](http://guides.rubyonrails.org/command_line.html)
 * version control with [git](http://git-scm.com/book/en/Getting-Started-About-Version-Control) and [github](https://github.com/features/projects)
 * what is [ruby](http://www.ruby-lang.org/en/about/)? what is [rails](http://guides.rubyonrails.org/getting_started.html#what-is-rails)?
@@ -12,6 +15,7 @@
 
 ## coding:
 
+* [sign up for github](https://github.com/signup/free)
 * dynamic "hello, chicago"
 * rails scaffolding
 
