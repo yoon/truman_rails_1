@@ -4,14 +4,13 @@
 * hello
 * expectations, contact info
 * our development environment: [ubuntu 12.0.4LTS](https://wiki.ubuntu.com/Releases), on usb, [sublime text](http://www.sublimetext.com/)
-* the command line [commands](https://help.ubuntu.com/community/UsingTheTerminal#Commands)
-** touch, tail
-* rails [command](http://guides.rubyonrails.org/command_line.html)
 * version control with [git](http://git-scm.com/book/en/Getting-Started-About-Version-Control) and [github](https://github.com/features/projects)
 * what is [ruby](http://www.ruby-lang.org/en/about/)? what is [rails](http://guides.rubyonrails.org/getting_started.html#what-is-rails)?
 * mvc - [model view controller](http://guides.rubyonrails.org/getting_started.html#the-mvc-architecture)
 * what are we doing? [web applications](http://thepaisano.files.wordpress.com/2008/04/rails2.png)
 * terms ruby, [rvm](https://rvm.io/), rails, [gems](http://rubygems.org/), [bundler](http://gembundler.com/)
+* the command line [commands](https://help.ubuntu.com/community/UsingTheTerminal#Commands): pwd, cd, ls, touch, cp, mv, rm, rm -r
+* rails [command](http://guides.rubyonrails.org/command_line.html): rails new, rails server, rails generate
 
 ## coding:
 
