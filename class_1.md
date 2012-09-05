@@ -9,7 +9,20 @@
 * mvc - [model view controller](http://guides.rubyonrails.org/getting_started.html#the-mvc-architecture)
 * what are we doing? [web applications](http://thepaisano.files.wordpress.com/2008/04/rails2.png)
 * terms ruby, [rvm](https://rvm.io/), rails, [gems](http://rubygems.org/), [bundler](http://gembundler.com/)
-* the command line [commands](https://help.ubuntu.com/community/UsingTheTerminal#Commands): pwd, cd, ls, touch, cp, mv, rm, rm -r
+
+### the command line
+
+* [commands](https://help.ubuntu.com/community/UsingTheTerminal#Commands)
+* `pwd` print working directory
+* `cd` change directory
+* `ls` and `ls -la` list contents of directory
+* `touch` create a blank file, or change the modified date of an existing file
+* `cp` copy a file
+* `mv` move
+* `mkdir` make a directory
+* `rm` remove a file
+* `rm -r` remove a directory
+
 * rails [command](http://guides.rubyonrails.org/command_line.html): rails new, rails server, rails generate
 
 ## coding:
