@@ -1,8 +1,7 @@
 # class 1
 
 ## topics:
-* hello
-* expectations, contact info
+* hello, expectations, contact info
 * our development environment: [ubuntu 12.0.4LTS](https://wiki.ubuntu.com/Releases), on usb, [sublime text](http://www.sublimetext.com/)
 * version control with [git](http://git-scm.com/book/en/Getting-Started-About-Version-Control) and [github](https://github.com/features/projects)
 * what is [ruby](http://www.ruby-lang.org/en/about/)? what is [rails](http://guides.rubyonrails.org/getting_started.html#what-is-rails)?
@@ -23,15 +22,31 @@
 * `rm` remove a file
 * `rm -r` remove a directory
 
+### the rails command
+
 * rails [command](http://guides.rubyonrails.org/command_line.html): rails new, rails server, rails generate
+* `rails new hello`
+* `rails server`
+* `rails generate controller welcome index`
+
+### git commands
+
+* `git init` start a new git repository
+* `git add .` add all files in the current direct
+* `git remote add origin [location]` link to a remote repository called origin at some location
+* `git push -u origin master` push the master branch to the remote repository called origin
 
 ## coding:
 
 * [try ruby](http://tryruby.org)
 * [try git](http://try.github.com)
 * [sign up for github](https://github.com/signup/free)
-* dynamic "hello, chicago"
-* rails scaffolding
+
+### Dynamic "hello world"
+
+`One plus one is: <%= 1+1 %>`
+`The time is now <%= Time.now.strftime("%H%M%S") %>`
+`You are runinng rails version: <%= Rails.version %>`
 
 ## resources:
 
@@ -50,7 +65,5 @@
 
 ## setting up rails on ubuntu linux:
 
-* [smashing magazine's ubuntu setup](http://coding.smashingmagazine.com/2011/06/21/set-up-an-ubuntu-local-development-machine-for-ruby-on-rails/)
-* [pow](https://github.com/ysbaddaden/pow/blob/linux/readme-linux.md)
-* [installing nodejs](https://github.com/joyent/node/wiki/installing-node.js-via-package-manager)
 * [railsready](https://github.com/joshfng/railsready)
+* [smashing magazine's ubuntu setup](http://coding.smashingmagazine.com/2011/06/21/set-up-an-ubuntu-local-development-machine-for-ruby-on-rails/)

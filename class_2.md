@@ -9,6 +9,10 @@
 * representation state transfer
 * csrf
 
+## coding:
+
+* rails scaffolding
+
 ## project 1:
 
 * inventory tracking (resource, location)
