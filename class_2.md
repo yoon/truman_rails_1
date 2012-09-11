@@ -2,12 +2,11 @@
 
 ## topics:
 
-* agile programming
-* database migrations and relationships
-* routing
-* behavior driven development (rspec)
-* representation state transfer
-* csrf
+* [agile](http://agilemanifesto.org/) programming
+* database [migrations](http://guides.rubyonrails.org/migrations.html) and [associations](http://guides.rubyonrails.org/association_basics.html)
+* [behavior driven development](http://behaviour-driven.org/) with [rspec](http://rubydoc.info/gems/rspec-rails/frames)
+* [representation state transfer](http://guides.rubyonrails.org/getting_started.html#rest)
+* [basic security](http://guides.rubyonrails.org/security.html)
 
 ## coding:
 
