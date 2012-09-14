@@ -57,7 +57,7 @@
 
 ## books and conferences:
 
-* [agile wed development with rails](http://pragprog.com/book/rails4/agile-web-development-with-rails)
+* [agile web development with rails](http://pragprog.com/book/rails4/agile-web-development-with-rails)
 * [the pickaxe book](http://pragprog.com/book/ruby/programming-ruby)
 * [version control with git](http://shop.oreilly.com/product/9780596520137.do)
 * [railsconf](http://www.railsconf.com/2013) april 29 - may2, 2013
