@@ -25,6 +25,7 @@
 * `ssh-keygen` generate ssh keys
 * `less ~/.ssh/id_rsa.pub` view your newly generated ssh key
 * copy the key contents to your github account
+* For those who created their ssh key, but were still prompted for a password, see [this article](https://help.github.com/articles/why-is-git-always-asking-for-my-password) (you need to change the location that your "origin" remote points to).
 
 ### clear any modifications to files since the last commit
 
