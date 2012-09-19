@@ -3,6 +3,7 @@
 ## project 1:
 
 * continued
+* `Location.all.map {|location| [location.name, location.id] }`
 
 ## topics
 
