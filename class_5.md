@@ -1,5 +1,21 @@
 # class 5
 
+## routing
+
+see your routes `rake routes`
+
+the first column has named routes like "tickets" or "new tickets". you can use these named routes by adding a "_path" to the end.
+
+`tickets_path`
+
+using the `link_to` method
+
+`link_to 'All tickets', tickets_path`
+
+or if you have a ticket object in a variable, say `@ticket`
+
+`link_to "Edit ticket: #{@ticket.title}", ticket_path(@ticket)`
+
 ## project 2
 
 * ticketing system (issue, person, tags)
