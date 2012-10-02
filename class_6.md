@@ -1,10 +1,6 @@
 # class 6
 
-## topics:
 
-* gems
-* user testing
+## project 2:
 
-## resources:
-
-* usability
+* continued

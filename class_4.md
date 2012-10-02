@@ -34,13 +34,15 @@ or
 
 1. see what is different `git status` and `git diff`
 2. edit the files, then commit the result `git add [files]` e.g. `git add something.txt`, then `git commit -m "merged changes"`
+
 ## blocks in ruby
+
+[why's poignant guide - scroll down to "blocks"](http://mislav.uniqpath.com/poignant-guide/book/chapter-3.html)
 
 ## ruby and arrays
 
-* 
-
+[ruby array map](http://www.ruby-doc.org/core-1.9.3/Array.html#method-i-map)
 
 ## the select field
 
- 
+[rails form options helper](http://api.rubyonrails.org/classes/ActionView/Helpers/FormOptionsHelper.html)
