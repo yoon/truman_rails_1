@@ -2,6 +2,8 @@
 
 ## routing
 
+Take a look at the [rails guide on routing](http://guides.rubyonrails.org/routing.html#crud-verbs-and-actions)
+
 see your routes `rake routes`
 
 the first column has named routes like "tickets" or "new tickets". you can use these named routes by adding a "_path" to the end.
