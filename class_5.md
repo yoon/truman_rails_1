@@ -46,6 +46,30 @@ Delete ticket
 
 * ticketing system (issue, person, tags)
 
+Our goal is to have a home page that looks like this:
+
+[Create a new ticket](#)
+
+[Abe's tickets](#)
+
+* Add two new clients
+* Package boxes for distribution
+* -Reorder office supplies-
+
+[Bob's tickets](#)
+
+* Send truck for maintenance
+* Replace air filters
+* Organize warehouse
+
+[Chuck's tickets](#)
+
+* Call investor
+* Prepare board presentation
+* Hire two new sales managers
+
+[Add users](#)
+
 ### 0. create a github repository
 
 * name it "tickets"
@@ -138,7 +162,7 @@ then in the rails console
 
 In app/views/tickets/_form.html.erb
 
-    <div class="people">
+    <div class="field">
       <%= f.label :people, "Assigned to" %><br />
       <% for person in @people %>
           <div>
@@ -148,15 +172,35 @@ In app/views/tickets/_form.html.erb
       <% end %>
     </div>
 
+And in app/controllers/tickets_controller.rb
+
+    @tickets = [you fill in the details here]
+
 Allow person_ids to be set in app/models/tickets
 
     attr_accessible :description, :status, :title, :person_ids
 
-### 10. add a checkbox for each person
+### 10. show the assigned people
 
-Show the assigned people in the "show" view
+In app/views/tickets/show.html.erb
 
     <p>
       <b>Assigned:</b>
       <%= @ticket.people.map{|p| p.name}.join(", ") %>
     </p>
+
+### 11. Ticket status should be a dropdown
+
+In app/views/tickets/_form.html.erb
+
+    <div class="field">
+      <%= f.label :status %><br />
+      <%= f.select :status, Ticket.statuses %>
+    </div>
+
+In app/models/ticket.rb
+
+    def statuses
+      ["open", "closed", "review", "re-opened"]
+    end
+
