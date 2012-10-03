@@ -120,3 +120,43 @@ In your terminal:
     git add .
     git commit -m "created basic models and associations"
     git push
+
+### 8. create a few people
+
+In your terminal:
+
+    rails console
+
+then in the rails console
+
+    Person
+    Person.create(:name => "Abe", :role => "admin")
+    Person.create(:name => "Bob", :role => "user")
+    Person.create(:name => "Chuck", :role => "user")
+
+### 9. add a checkbox for each person
+
+In app/views/tickets/_form.html.erb
+
+    <div class="people">
+      <%= f.label :people, "Assigned to" %><br />
+      <% for person in @people %>
+          <div>
+            <%= check_box_tag "ticket[person_ids][]", person.id, @ticket.people.include?(person) %>
+            <%= person.name %>
+          </div>
+      <% end %>
+    </div>
+
+Allow person_ids to be set in app/models/tickets
+
+    attr_accessible :description, :status, :title, :person_ids
+
+### 10. add a checkbox for each person
+
+Show the assigned people in the "show" view
+
+    <p>
+      <b>Assigned:</b>
+      <%= @ticket.people.map{|p| p.name}.join(", ") %>
+    </p>
