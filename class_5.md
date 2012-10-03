@@ -16,6 +16,30 @@ or if you have a ticket object in a variable, say `@ticket`
 
 `link_to "Edit ticket: #{@ticket.title}", ticket_path(@ticket)`
 
+### Standard RESTful routing, with the "ticket" model
+
+Show all tickets
+
+    GET /tickets => tickets#index
+
+Show a ticket
+
+    GET /tickets/1 => tickets#show
+
+New ticket
+
+    GET /tickets/new => tickets#new
+    POST /tickets    => tickete#create
+
+Edit ticket
+
+    GET /tickets/12/edit => tickets#edit
+    PUT /tickets/12      => tickets#update
+
+Delete ticket
+
+    DELETE /tickets/12   => tickets#destroy
+
 ## project 2
 
 * ticketing system (issue, person, tags)
