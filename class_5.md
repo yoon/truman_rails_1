@@ -174,7 +174,7 @@ In app/views/tickets/_form.html.erb
 
 And in app/controllers/tickets_controller.rb
 
-    @tickets = [you fill in the details here]
+    @people = [you fill in the details here]
 
 Allow person_ids to be set in app/models/tickets
 
