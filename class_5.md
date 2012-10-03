@@ -200,7 +200,7 @@ In app/views/tickets/_form.html.erb
 
 In app/models/ticket.rb
 
-    def statuses
+    def self.statuses
       ["open", "closed", "review", "re-opened"]
     end
 
