@@ -119,7 +119,7 @@ Model: app/models/person.rb
       ["user", "admin"]
     end
 
-Controller: app/controllers/people.rb
+Controller: app/controllers/people_controller.rb
 
     class PeopleController < ApplicationController
       def index
